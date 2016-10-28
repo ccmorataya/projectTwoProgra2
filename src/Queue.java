@@ -1,5 +1,17 @@
-/**
- * Created by kali on 10/28/16.
- */
-public class Queue {
+class Queue {
+    void Insert(){
+
+    }
+
+    void Pop(){
+
+    }
+
+    void CreateQueue(){
+
+    }
+
+    void Empty(){
+
+    }
 }
