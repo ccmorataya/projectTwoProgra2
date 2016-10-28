@@ -16,12 +16,14 @@ public class Main {
             System.out.println("3. Crear cola");
             System.out.println("4. Vaciar cola");
             System.out.println("0. Salir\n");
-            System.out.println("Ingresa la opción a realizar");
+            System.out.print("Ingresa la opción a realizar: ");
 
             option = Integer.parseInt(datos.nextLine());
 
-            if (option == 1)
+            if (option == 1) {
+                System.out.print("Ingresa el dato a añadir a la cola: ");
                 action.Insert(datos.nextLine());
+            }
             else if (option == 2)
                 action.Pop();
             else if (option == 3)
