@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Queue action=new Queue();
+        QueueArraylist action=new QueueArraylist();
         int option;
         boolean isAlive = true;
         Scanner datos = new Scanner(System.in);

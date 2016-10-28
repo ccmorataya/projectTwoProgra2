@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Queue {
+class QueueArraylist {
     private ArrayList<String> queue = new ArrayList<>();
 
     void Insert(String dato){
