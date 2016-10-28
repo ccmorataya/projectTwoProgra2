@@ -7,8 +7,8 @@ public class Main {
         int option;
         boolean isAlive = true;
         Scanner datos = new Scanner(System.in);
-        while(isAlive){
 
+        while(isAlive){
             System.out.println("Menú de opcines de cola en Java");
             System.out.println("-------------------------------------");
             System.out.println("1. Ingresar nuevo dato");
@@ -21,7 +21,7 @@ public class Main {
             option = Integer.parseInt(datos.nextLine());
 
             if (option == 1)
-                action.Insert();
+                action.Insert(datos.nextLine());
             else if (option == 2)
                 action.Pop();
             else if (option == 3)
