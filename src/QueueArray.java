@@ -1,6 +1,6 @@
-public class QueueArray {
+class QueueArray {
 
-    String[] queue = new String[5];
+    private String[] queue = new String[5];
     private int start = 0;
     private int end = -1;
 
