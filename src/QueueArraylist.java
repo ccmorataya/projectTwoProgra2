@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 class QueueArraylist {
     private ArrayList<String> queue = new ArrayList<>();
@@ -9,9 +10,10 @@ class QueueArraylist {
 
     void Pop(){
         int indexDato = queue.size()-1;
-        System.out.println(queue.get(indexDato));
+        Collections.reverse(queue);
+        System.out.println("Se retiró el dato: " + queue.get(indexDato));
         queue.remove(indexDato);
-
+        Collections.reverse(queue);
     }
 
     void CreateQueue(){
